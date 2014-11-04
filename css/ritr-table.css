@@ -1,0 +1,29 @@
+.ritr-table{
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: top;
+
+}
+.ritr-table tr {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.ritr-table td {
+    border: 1px solid #ddd;
+    padding: 3px;
+    vertical-align: top;
+}
+.ritr-table th {
+    border: 1px solid #ddd;
+    padding: 3px;
+    vertical-align: top;
+}
+.ritr-tableHovered {
+    background-color: #F7F7F7;
+}
+.ritr-tableSelected{
+    background-color: #bce8f1;
+}
